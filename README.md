@@ -1,11 +1,12 @@
 # Rozumovich_python_javascript
 Technical task for Andersen QA Automation Internship
 
-The task is implemented both on Python and Javascript. The files can be run through the console (terminal).
+The task is implemented both on *Python* and *Javascript*. The files can be run through the *console* (terminal) (cmd.exe in Windows)
 
-! Python 3 and Node.js and npm should be installed on your device.
-To run rozumovich_python.py use 'python rozumovich_python.py' command
-To run rozumovich-javascript.js use 'node rozumovich-javascript.js' command
+! *Python 3* and *Node.js* and *npm* should be installed on your device.
+
++ To run rozumovich_python.py use 'python rozumovich_python.py' command
++ To run rozumovich-javascript.js use 'node rozumovich-javascript.js' command
 
 > ## Задание
 > ### Составьте алгоритм
@@ -21,6 +22,6 @@ To run rozumovich-javascript.js use 'node rozumovich-javascript.js' command
 
 > *Если ответ на предыдущий вопрос “нет”, то что необходимо в ней изменить, чтобы она стала правильной?*
 
-**ОТВЕТ**: Правильная последовательность следующая: 
-[[((()))()(())]] или [[((())()(()))]] - добавить 1 открывающую '[' и 1 закрывающую ')'   
-либо [(())()(())]  - убрать лишнюю закрывающую ']' в конце и открывающую '(' в начале 
+**ОТВЕТ**: Превратить данную последовательность в правильную можно следующими способами:
+1) Добавить 1 открывающую '[' и 1 закрывающую ')'. Результат: [[((()))()(())]] или [[((())()(()))]]    
+2) Убрать лишнюю закрывающую ']' в конце и открывающую '(' в начале. Результат: [(())()(())]
